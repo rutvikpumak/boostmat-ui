@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+:root {
+    --green: rgb(32, 170, 32);
+    --darkRed: rgb(155, 30, 30);
+    --red: rgb(255, 0, 0);
+    --lightRed: #f6a7a3;
+}
+
 .alert {
     display: flex;
     flex-direction: row;
@@ -24,15 +31,15 @@
 }
 
 .alert-danger {
-    border-left: 5px solid rgb(155, 30, 30);
-    background-color: #f7a7a3;
-    color: rgb(155, 30, 30);
+    border-left: 5px solid var(--darkRed);
+    background-color: var(--lightRed);
+    color: var(--darkRed);
 }
 
 .alert-success {
-    border-left: 5px solid green;
+    border-left: 5px solid var(--green);
     background-color: #a8f0c6;
-    color: green;
+    color: var(--green);
 }
 
 .close {
@@ -42,21 +49,21 @@
 .doc-img {
     margin-top: 5rem;
 }
-.alert-iframe{
+
+.alert-iframe {
     width: 100%;
     border: none;
     height: 420px;
 }
-.error-text{
-    color:red;
+
+.error-text {
+    color: var(--red);
 }
+
 .middle-text {
-    /* margin: 0.5rem 0 2rem 0; */
     line-height: 25px;
 }
 
 .success-text {
-    color: rgb(32, 170, 32);
+    color: var(--green);
 }
-
-
