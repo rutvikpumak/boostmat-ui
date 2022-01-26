@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root {
+    --green: rgb(32, 170, 32);
+    --darkRed: rgb(155, 30, 30);
+    --red: rgb(255, 0, 0);
+    --lightRed: rgba(243, 160, 156, 0.973);
+}
+
+.alert {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.alert h3 {
+    align-items: center;
+}
+
+.alert-danger,
+.alert-success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 15px 5px #ccc;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.alert-danger {
+    border-left: 5px solid var(--darkRed);
+    background-color: var(--lightRed);
+    color: var(--darkRed);
+}
+
+.alert-success {
+    border-left: 5px solid var(--green);
+    background-color: #a8f0c6;
+    color: var(--green);
+}
+
+.close {
+    font-size: 2rem;
+}
+
+.doc-img {
+    margin-top: 5rem;
+}
+
+.alert-iframe {
+    width: 100%;
+    border: none;
+    height: 420px;
+}
+
+.error-text {
+    color: var(--red);
+}
+
+.middle-text {
+    line-height: 25px;
+}
+
+.success-text {
+    color: var(--green);
+}
