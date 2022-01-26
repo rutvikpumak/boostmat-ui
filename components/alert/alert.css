@@ -4,7 +4,7 @@
     --green: rgb(32, 170, 32);
     --darkRed: rgb(155, 30, 30);
     --red: rgb(255, 0, 0);
-    --lightRed: #f6a7a3;
+    --lightRed: rgba(243, 160, 156, 0.973);
 }
 
 .alert {
