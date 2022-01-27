@@ -116,7 +116,7 @@ a {
 }
 
 .sidebar-main a:hover {
-    background-color:var(--grey)
+    background-color: var(--grey)
 }
 
 .section {
@@ -156,7 +156,7 @@ a {
 }
 
 .middle-text {
-    margin: 1rem 0 2rem 0;
+    margin: 2rem;
 }
 
 /* Social Media Icon Bar */
@@ -200,26 +200,99 @@ button {
     outline: none;
 }
 
-
 .doc-img {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
-@media screen and (max-width: 700px){
- 
-    
-    .sidebar-wrapper{
-       display: none;
+/* Navigation bar style for mobile view */
+
+.navigation-bar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 120px;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+
+.humber-icon {
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 950px) {
+
+    .trans-on {
+        left: 0;
+        transition: left 0.5s ease-out;
     }
-    .section{
+
+    .trans-off {
+        left: -350px;
+        transition: left 0.5s ease-out;
+    }
+
+    .sidebar-wrapper {
+        z-index: 5;
+    }
+
+    .sidebar {
+        margin-top: 38px;
+    }
+
+    .sidebar-main,
+    .install-text {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        margin-top: 120px;
+    }
+
+    .navigation-bar {
+        display: flex;
+    }
+
+    .section {
         position: absolute;
         right: 0;
         width: 100%;
     }
 
-    .section-header,.section-main{
+    .sidebar-header .logo h3 {
+        display: none;
+    }
+
+    .section-header,
+    .section-main {
         padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .icon-bar {
+        right: 0;
+        top: 95%;
+        position: fixed;
+        display: flex;
+        gap: 1rem;
+        box-shadow: none;
+    }
+
+    .icon-bar a {
+        text-align: center;
+        padding: 8px 11px;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 0rem;
     }
 }

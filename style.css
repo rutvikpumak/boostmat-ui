@@ -5,12 +5,14 @@
     padding: 0;
     margin: 0;
 }
-
+:root{
+    --main-color: #0e9aeb;
+    --white: #ffffff;
+    --darkBlue:#0f3952;;
+}
 body {
-    background-color: black;
-    color: white;
+    color:var(--white);
     font-family: 'Montserrat', sans-serif;
-    --main-color: rgb(14, 154, 235);
     background-image: url('./images/bg-image.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,12 +45,13 @@ body {
 }
 
 .logo-img {
-    font-size: 4rem;
-    margin-right: 15px;
+    font-size: 3rem;
+    margin-right: 10px;
     padding-bottom: 0;
     margin-bottom: 0rem;
-    
+
 }
+
 .nav-link {
     margin-bottom: 12px;
 }
@@ -113,18 +116,18 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
-    width: 18rem;
     height: 50px;
+    padding: 1rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
 }
 
-.main-btn>i {
+.main-btn > i {
     padding-left: 10px;
 }
 
 .main-btn:hover {
-    background-color: #0369a1
+    background-color: var(--darkBlue)
 }
 
 .main-footer {
@@ -143,16 +146,25 @@ body {
 }
 
 .github>img {
-    background: white;
+    background: var(--white);
     width: 50px;
 }
 
 .github>i,
 .twitter>i {
-    color: white;
+    color: var(--white);
     font-size: 1.5rem;
 }
 
 .github>i {
     margin-right: 20px;
 }
+
+@media screen and (max-width : 440px){
+    .nav-link{
+        display: none;
+    }
+    .main-text-title{
+        font-size: 2rem;
+    }
+} 
