@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+span {
+    font-weight: bold;
+}
+
+.section-main-text {
+    margin-bottom: 3rem;
+}
+
+.badge-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bell-badge,
+.cart-badge,
+.avatar-badge,
+.envelope-badge {
+    position: relative;
+    font-family: 'Dongle', sans-serif
+}
+
+.notification-icon {
+    position: absolute;
+    height: 1.3rem;
+    min-width: 1rem;
+    bottom: 70%;
+    right: -8px;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: rgb(29, 155, 240);
+    color: white;
+    font-size: 1rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-iframe {
+    width: 100%;
+    border: none;
+    height: 825px;
+}
