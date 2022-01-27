@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
+:root{
+    --badgeFont :'Dongle', sans-serif
+}
+
 span {
     font-weight: bold;
 }
@@ -29,7 +33,7 @@ span {
 .avatar-badge,
 .envelope-badge {
     position: relative;
-    font-family: 'Dongle', sans-serif
+    font-family: var(--badgeFont);
 }
 
 .notification-icon {
