@@ -80,7 +80,7 @@ a {
 
 .sidebar-wrapper {
     width: 320px;
-    height: 100vh;
+    height: 100%;
     font-size: 1rem;
     background-color: var(--black);
     position: fixed;
@@ -118,7 +118,6 @@ a {
 .sidebar-main a:hover {
     background-color:var(--grey)
 }
-
 
 .section {
     display: flex;
@@ -194,6 +193,18 @@ a {
 .linkedin {
     background: #007bb5;
     color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+
+.doc-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
 @media screen and (max-width: 700px){
