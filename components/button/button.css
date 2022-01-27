@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary: #9333ea;
+    --secondary: #2563eb;
+    --success: #22c55e;
+    --danger: #dc2626;
+    --warning: #facc15;
+    --default: #64748b;
+    --link: #06aed8
+}
+
+.section-main-text {
+    margin: 2rem 0;
+}
+
+.buttons-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.btn-iframe {
+    width: 100%;
+    border: none;
+    height: 330px;
+}
+
+.link-btn {
+    background-color: var(--link);
+}
+
+.btn,
+.link-btn {
+    border: none;
+    background-color: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn-icon {
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover,
+.link-btn:hover {
+    opacity: 0.8;
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary)
+    ;
+}
+
+.success {
+    background-color: var(--success);
+}
+
+.danger {
+    background-color: var(--danger);
+}
+
+.warning {
+    background-color: var(--warning);
+}
+
+.default {
+    background-color: var(--default);
+}
+
+.link-btn {
+    background-color: var(--link);
+}
+
+.outlined-primary {
+    background-color: white;
+    color: var(--primary);
+    border: 0.5px solid var(--primary);
+}
+
+.outlined-primary:hover {
+    color: white;
+    background-color: var(--primary);
+}
+
+.outlined-secondary {
+    background-color: white;
+    color: var(--secondary);
+    border: 0.5px solid var(--secondary);
+}
+
+.outlined-secondary:hover {
+    color: white;
+    background-color: var(--secondary);
+}
+
+.outlined-success {
+    background-color: white;
+    color: var(--success);
+    border: 0.5px solid var(--success);
+}
+
+.outlined-success:hover {
+    color: white;
+    background-color: var(--success);
+}
+
+.outlined-danger {
+    background-color: white;
+    color: var(--danger);
+    border: 0.5px solid var(--danger);
+}
+
+.outlined-danger:hover {
+    color: white;
+    background-color: var(--danger);
+}
+
+.outlined-danger {
+    background-color: white;
+    color: var(--danger);
+    border: 0.5px solid var(--danger);
+}
+
+.outlined-danger:hover {
+    color: white;
+    background-color: var(--danger);
+}
+
+
+.outlined-warning {
+    background-color: white;
+    color: var(--warning);
+    border: 0.5px solid var(--warning);
+}
+
+.outlined-warning:hover {
+    color: white;
+    background-color: var(--warning);
+}
+
+.outlined-default {
+    background-color: white;
+    color: var(--default);
+    border: 0.5px solid var(--default);
+}
+
+.outlined-default:hover {
+    color: white;
+    background-color: var(--default);
+}
+
+.outlined {
+    background-color: white;
+    color: var(--link);
+    border: 0.5px solid var(--link);
+}
+
+.outlined:hover {
+    background-color: var(--link);
+    color: white;
+    border: 0.5px solid var(--link);
+}
+
+.float-btn {
+    color: white;
+    border-radius: 50%;
+    padding: 0.8rem 1rem;
+    background-color: #06C;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
