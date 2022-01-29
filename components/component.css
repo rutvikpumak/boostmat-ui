@@ -1,3 +1,4 @@
+@import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("./alert/alert.css");
 @import url("./avatar/avatar.css");
@@ -12,93 +13,6 @@
 @import url("./rating/rating.css");
 @import url("./text-utilities/textUtilities.css");
 @import url("./toast/toast.css");
-
-/* Reset CSS */
-* {
-    box-sizing: border-box;
-}
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-p {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 :root{
     --main-color: #0e9aeb;
@@ -138,14 +52,3 @@ p {
     --font-bold:700
 }
 
-button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-}
