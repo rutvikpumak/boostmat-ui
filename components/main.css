@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url("./alert/alert.css");
-@import url("./avatar/avatar.css");
-@import url("./badge/badge.css");
-@import url("./button/button.css");
-@import url("./card/card.css");
-@import url("./image/image.css");
-@import url("./input/input.css");
-@import url("./lists/lists.css");
-@import url("./modal/modal.css");
-@import url("./navigation/navigation.css");
-@import url("./rating/rating.css");
-@import url("./text-utilities/textUtilities.css");
-@import url("./toast/toast.css");
 
 * {
     box-sizing: border-box;
@@ -21,13 +8,15 @@
 
 :root {
     --main-color: rgb(14, 154, 235);
-    --max: 1300px;
+    --max: 81.25rem;
     --black: rgb(31, 29, 29);
     --white: white;
     --grey: #262f44;
     --darkBlue: #007bb5;
     color: white;
     font-family: 'Montserrat', sans-serif;
+
+    --round-border: 50%;
 }
 
 button {
@@ -79,13 +68,13 @@ a {
 
 .logo-img {
     font-size: 3rem;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     padding-bottom: 0;
     margin-bottom: 0rem;
 }
 
 .sidebar-wrapper {
-    width: 320px;
+    width: 20rem;
     height: 100%;
     overflow-y: auto;
     z-index: 5;
@@ -112,14 +101,13 @@ a {
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    flex-basis: 100px;
     font-size: 1rem;
 }
 
 .sidebar-main a {
     color: var(--white);
-    padding: 10px 10px 10px 25px;
-    margin-bottom: 10px;
+    padding: 0.625rem 0.625rem 0.625rem 1.563rem;
+    margin-bottom: 0.625rem;
     border-radius: 0 20px 20px 0;
 }
 
@@ -130,9 +118,8 @@ a {
 .section {
     display: flex;
     flex-direction: column;
-    margin-left: 320px;
+    margin-left: 20rem;
     height: 100vh;
-    flex-basis: 1000px;
     color: var(--black);
 }
 
@@ -206,21 +193,27 @@ a {
 
 .icon-bar a {
     padding: 5px 9px;
-    border-radius: 50%;
+    border-radius: var(--round-border);
     color: var(--white);
     background: var(--grey);
 }
 
+
 @media screen and (max-width: 950px) {
 
-    
+    .doc-img {
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 2rem;
+    }
+
     .section-header {
         font-size: 0.8rem;
         padding: 4rem 1rem 2rem 1rem;
     }
 
     .section-main {
-        padding: 0rem 1rem;
+        padding: 0.5rem 1rem;
     }
 
     .trans-on {
@@ -229,12 +222,12 @@ a {
     }
 
     .trans-off {
-        left: -350px;
+        left: -21.875rem;
         transition: left 0.5s ease-out;
     }
 
     .sidebar-wrapper {
-        width: 270px;
+        width: 15.625rem;
         z-index: 5;
     }
 
@@ -244,7 +237,7 @@ a {
     }
 
     .container {
-        margin-top: 60px;
+        margin-top: 3.75rem;
     }
 
     .navigation-bar {

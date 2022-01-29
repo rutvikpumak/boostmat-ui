@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
-:root{
-    --badgeFont :'Dongle', sans-serif
+:root {
+    --badgeFont: 'Dongle', sans-serif
 }
 
-span {
-    font-weight: bold;
+.notification-icon span {
+    font-weight: var(--font-bold);
 }
 
 .section-main-text {
@@ -28,10 +28,7 @@ span {
     gap: 1rem;
 }
 
-.bell-badge,
-.cart-badge,
-.avatar-badge,
-.envelope-badge {
+.badge>div {
     position: relative;
     font-family: var(--badgeFont);
 }
@@ -41,12 +38,12 @@ span {
     height: 1.3rem;
     min-width: 1rem;
     bottom: 70%;
-    right: -8px;
-    font-weight: bold;
+    right: -9px;
+    font-weight: var(--font-bold);
     padding: 0.5rem;
-    border-radius: 50%;
-    background: rgb(29, 155, 240);
-    color: white;
+    border-radius: var(--border-full);
+    background: var(--main-color);
+    color: var(--white);
     font-size: 1rem;
 }
 
@@ -54,10 +51,4 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.badge-iframe {
-    width: 100%;
-    border: none;
-    height: 825px;
 }

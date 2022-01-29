@@ -5,7 +5,7 @@
     margin-top: 2rem;
 }
 .avatar{
-    border-radius: 50%;
+    border-radius:var(--border-full);
     width:1rem;
     object-fit: cover;
 }
@@ -23,9 +23,4 @@
 .lg{
     width:5rem;
     height: 5rem;
-}
-.avatar-iframe{
-    width: 100%;
-    border: none;
-    height: 310px;
 }

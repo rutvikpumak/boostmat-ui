@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("./alert/alert.css");
+@import url("./avatar/avatar.css");
+@import url("./badge/badge.css");
+@import url("./button/button.css");
+@import url("./card/card.css");
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./lists/lists.css");
+@import url("./modal/modal.css");
+@import url("./navigation/navigation.css");
+@import url("./rating/rating.css");
+@import url("./text-utilities/textUtilities.css");
+@import url("./toast/toast.css");
+
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+:root{
+    --main-color: #0e9aeb;
+    --black: #1f1d1d;
+    --white: #ffffff;
+    --grey: #262f44;
+    --darkBlue: #007bb5;
+    --green: #20aa20;
+    --darkRed: #9b1e1e;
+    --red: #ff0000;
+    --lightRed: #f3a09cf8;
+    --darkYellow:#a88c18;
+    --lightBlue: #89c3df;
+
+    --primary: #9333ea;
+    --secondary: #2563eb;
+    --success: #22c55e;
+    --danger: #dc2626;
+    --warning: #facc15;
+    --default: #414752;
+    --link: #06aed8;
+    --darkOrange: #E67A00;
+    --lightGrey: #88898b;
+    --darkGreen: #008000;
+    
+    --max: 81.25rem;
+    font-family: 'Montserrat', sans-serif;
+
+    --border-full:999px;
+    --border-lg:15px;
+    --border-md:10px;
+    --border-sm:5px;
+
+    --font-light:300;
+    --font-regular:400;
+    --font-semiBold:600;
+    --font-bold:700
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
