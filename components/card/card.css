@@ -52,13 +52,15 @@
 }
 
 .card-title-header{
+  font-weight: var(--font-semiBold);
   font-size: 1rem;
 }
 
 .card-title .close{
   font-size: 1.5rem;
 }
-.section-main-text .card-description {
+
+.card-description {
   display: block;
   color: var(--lightGrey);
   font-size: 0.7rem;

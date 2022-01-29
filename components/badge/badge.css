@@ -28,7 +28,7 @@
     gap: 1rem;
 }
 
-.badge>div {
+.badge > div {
     position: relative;
     font-family: var(--badgeFont);
 }
