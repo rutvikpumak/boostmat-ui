@@ -51,7 +51,7 @@
   justify-content: space-between;
 }
 
-.card-title h3 {
+.card-title-header{
   font-size: 1rem;
 }
 
@@ -66,14 +66,10 @@
   padding: 0;
 }
 
-.section-main-text .price p {
+.price {
   padding: 0;
   font-size: 1.1rem;
-}
-
-.price {
   display: flex;
-  gap: 7px;
   font-weight: var(--font-semiBold);
   margin-top: 0.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -160,13 +156,13 @@
 }
 
 
-.horizontal-btn button {
+.remove-btn,.later-btn{
   font-size: 1rem;
   background-color: var(--white);
   font-weight: var(--font-semiBold);
 }
 
-.horizontal-btn button:hover {
+.remove-btn:hover,.later-btn:hover {
   opacity: 0.5;
 }
 
@@ -201,11 +197,11 @@
   font-weight: 100;
 }
 
-.overlay-btn-icon button {
+.overlay-btn-icon .btn {
   border: none;
 }
 
-.overlay-btn-icon button:hover {
+.overlay-btn-icon .btn:hover {
   background-color: var(--white);
   color: var(--secondary);
 }
@@ -219,7 +215,6 @@
 .img-content {
   border-radius: 20px 0 0 0;
   position: relative;
-  ;
 }
 
 .text-overlay .img-content .card-title {
@@ -230,7 +225,7 @@
   left: 5%
 }
 
-.text-overlay .img-content .card-title p {
+.text-overlay .img-content .card-title .card-description {
   color: var(--white);
 }
 
