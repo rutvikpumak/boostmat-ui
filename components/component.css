@@ -18,6 +18,7 @@
     --main-color: #0e9aeb;
     --black: #1f1d1d;
     --white: #ffffff;
+    --lynxWhite:#f8f8f8;
     --grey: #262f44;
     --darkBlue: #007bb5;
     --green: #20aa20;
@@ -35,7 +36,7 @@
     --default: #414752;
     --link: #06aed8;
     --darkOrange: #E67A00;
-    --lightGrey: #88898b;
+    --lightGrey: #c2c2c2;
     --darkGreen: #008000;
     
     --max: 81.25rem;
