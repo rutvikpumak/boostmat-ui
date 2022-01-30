@@ -14,7 +14,9 @@
     align-items: center;
 }
 
-.input {
+.text-input,
+.number-input,
+.pwd-input {
     max-width: 100%;
     font-size: 1rem;
     padding: 1rem 1.5rem;
@@ -22,27 +24,29 @@
     font-weight: var(--font-regular);
 }
 
-.input:hover {
+.text-input:hover,
+.number-input:hover,
+.pwd-input:hover {
     border: 2px solid var(--main-color);
 }
 
-label {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-
+.text-input:focus,
+.number-input:focus,
+.pwd-input:focus {
+    outline: none;
+    border: 2px solid var(--main-color);
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+.radio-input,
+.checkbox-input {
     accent-color: var(--default);
     height: 15px;
     width: 15px;
     cursor: pointer;
 }
 
-input[type="radio"]:checked,
-input[type="checkbox"]:checked {
+.radio-input:checked,
+.checkbox-input:checked {
     height: 19px;
     width: 19px;
     transition: 0.3s;
