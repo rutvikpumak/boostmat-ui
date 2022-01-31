@@ -29,4 +29,6 @@ BoostMat UI is fully customizable CSS Component library to boost development of 
   * [Text Utility](https://boostmat-ui.netlify.app/components/text-utilities/textUtilities.html)
   * [Toast](https://boostmat-ui.netlify.app/components/toast/toast.html)
  
+##Demo
 
+![]https://github.com/rutvikpumak/boostmat-ui/blob/dev/images/demo.gif
