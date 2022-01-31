@@ -10,7 +10,7 @@ BoostMat UI is fully customizable CSS Component library to boost development of 
 * Installation guide is provided in documentation.
 * Example's html code is written, you can directly copy and paste in your html file.
 * You can also create combinations of components by adding appropriate class to your html elements.
-* 
+
 ## Components Defined in BoostMat  -
 
   * [Alert](https://boostmat-ui.netlify.app/components/alert/alert.html)
