@@ -43,15 +43,8 @@
 }
 .radio-input,
 .checkbox-input {
-    accent-color: var(--main-color);
+    accent-color: var(--darkBlue);
     height: 15px;
     width: 15px;
     cursor: pointer;
-}
-
-.radio-input:checked,
-.checkbox-input:checked {
-    height: 16px;
-    width: 16px;
-    transition: 0.3s;
 }

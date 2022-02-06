@@ -1,4 +1,3 @@
-@import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("./alert/alert.css");
 @import url("./avatar/avatar.css");
@@ -55,3 +54,21 @@
     --font-bold:700
 }
 
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
