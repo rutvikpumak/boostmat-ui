@@ -1,15 +1,22 @@
+<div align="center">
+  <img src="images/favicon.jpg" height="40" width="40" alt="boostmat ui logo"/>
+  
 # [BoostMat UI](https://boostmat-ui.netlify.app)
-## Description -
-BoostMat UI is fully customizable CSS Component library to boost development of web pages.
+  Boost your web development by using CSS Component Library 
+</div>
 
 ## Technology Used -
   * HTML
   * Vanilla CSS
+  * JavaScript
   
-## [Documentation](https://boostmat-ui.netlify.app/components/main.html)
-* Installation guide is provided in documentation.
-* Example's html code is written, you can directly copy and paste in your html file.
-* You can also create combinations of components by adding appropriate class to your html elements.
+## Installation -
+To get the styles of the components, add the following line of code in the head tag of your HTML document.
+```html
+<link rel="stylesheet" href="https://boostmat-ui.netlify.app/components/component.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+```
 
 ## Components Defined in BoostMat  -
 
@@ -22,7 +29,7 @@ BoostMat UI is fully customizable CSS Component library to boost development of 
   * [Input](https://boostmat-ui.netlify.app/components/input/input.html)
   * [Lists](https://boostmat-ui.netlify.app/components/lists/lists.html)
   * [Modal](https://boostmat-ui.netlify.app/components/modal/modal.html)
-  * [Navigation](https://boostmat-ui.netlify.app/navigation/navigation.html)
+  * [Navigation](https://boostmat-ui.netlify.app/components/navigation/navigation.html)
   * [Rating](https://boostmat-ui.netlify.app/components/rating/rating.html)
   * [Responsive Grid](https://boostmat-ui.netlify.app/components/grid/grid.html)
   * [Slider](https://boostmat-ui.netlify.app/components/slider/slider.html)
