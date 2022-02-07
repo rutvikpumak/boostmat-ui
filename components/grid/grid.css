@@ -4,10 +4,19 @@
     grid-gap: 0.5rem;
 }
 
+.responsive-grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+}
+
 @media screen and (max-width:600px) {
     .responsive-grid {
         grid-gap: 1rem;
         grid-template-columns: auto auto;
+    }
+    .responsive-grid-two {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
