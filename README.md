@@ -5,6 +5,12 @@
   Boost your web development by using CSS Component Library 
 </div>
 
+## What is BoostMat UI ?
+
+- BoostMat UI is CSS Component Library from which you can use components to build your website building faster.
+- It has 15 components with different types as well.
+- Responsive ✅
+
 ## Technology Used -
   * HTML
   * Vanilla CSS
@@ -37,5 +43,8 @@ To get the styles of the components, add the following line of code in the head 
   * [Toast](https://boostmat-ui.netlify.app/components/toast/toast.html)
  
 ## Demo
-
-![](https://github.com/rutvikpumak/boostmat-ui/blob/dev/images/demo.gif)
+<div align="center">
+  
+![demo](https://user-images.githubusercontent.com/58260342/154836473-d2f25b57-906e-43a4-bb9a-d37223ef31d3.gif)
+  
+</div>
